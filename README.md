@@ -9,20 +9,25 @@ Portfolio Management with Futures Contract
 ```
 # virtualenv is recommended
 # or conda
-# conda create -n testenv python=3.6
-# conda activate testenv
+# > conda create -n testenv python=3.6
+# > conda activate testenv
 pip install -r requirements.txt
 ```
 
 2. Run the sample notebook
 
 ```
+# If using conda
+# > source activate testenv
+# > python -m ipykernel install --user --name testenv --display-name "Python (testenv)"
+# and double check with
+# > which jupyter
 jupyter notebook
 ```
 
 3. Result
 
-![](imgs/results.png)
+![](imgs/results.PNG)
 
 
 ## Data

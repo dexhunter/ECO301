@@ -1,6 +1,2 @@
 git+ssh://git@github.com/dexhunter/universal-portfolios@eco#egg=universal-portfolios
-pandas
-matplotlib
-numpy
-scipy
 notebook
